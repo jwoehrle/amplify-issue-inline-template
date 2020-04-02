@@ -33,7 +33,7 @@
 				"ApiId": {
 					"Ref": "AppSyncApiId"
 				},
-				"DataSourceName": "NONE",
+				"DataSourceName": "OrderTable",
 				"Description": "As tablenames are dynamic to appID and env this ets $ctx.stash.* to required variables",
 				"FunctionVersion": "2018-05-29",
 				"Name": "setEnvironment",
@@ -53,11 +53,8 @@
 					]
 				}
 			}
-		},
-		"EmptyResource": {
-			"Type": "Custom::EmptyResource",
-			"Condition": "AlwaysFalse"
 		}
+
 	},
 	"Conditions": {
 		"HasEnvironmentParameter": {
