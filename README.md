@@ -1,3 +1,6 @@
+Example project for https://github.com/aws-amplify/amplify-cli/issues/3834
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
